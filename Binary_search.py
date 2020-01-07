@@ -25,8 +25,8 @@ def binary_search(lst, item):
     return None
 
 # Testing
-sorted_list = list(range(75))
+sorted_list = list(range(15))
 
-print(binary_search(sorted_list, 6))
-print(binary_search(sorted_list, 67))
-print(binary_search(sorted_list, 52))
+print(binary_search(sorted_list, 4))
+print(binary_search(sorted_list, 9))
+print(binary_search(sorted_list, 11))
